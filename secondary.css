@@ -1,0 +1,100 @@
+nav h3{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 23px 0;
+}
+
+nav h4{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 34px 0;
+}
+
+hr{
+    margin: 23px 16px;
+    border: 0;
+    background-color: rgb(117, 190, 254);
+    height: 3px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 23px 0;
+    align-items: center;    
+}
+
+nav ul li{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 1.3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(117, 190, 254);
+}
+
+nav ul li a:hover{
+    background-color: rgb(117, 190, 254);
+    color: black;
+    padding: 10px 23px;
+    position: relative;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:active{
+    background-color: rgb(2, 42, 42);
+    color: white;
+    font-weight: bold;
+}
+
+.content{
+    background-color: black ;
+    border: 6px solid rgb(117, 190, 254);
+    width: 72%;
+    margin-left: 28%;
+    height: 100%;
+    position: fixed;
+}
+
+.box{
+    justify-content: center;
+    margin: 60px 23px;
+    height: 80%;
+    background-color: rgb(117, 190, 254);
+    border-radius: 10px;
+    border: 8px solid white;
+}
+
+.content h3{
+    margin: 0 23px;
+    padding-top: 7vh;
+    font-size: 1.3rem;
+}
+
+ input{
+    background-color: black;
+    width: 70%;
+    color: rgb(117, 190, 254);
+    font-size: 1.3rem;
+    margin-left: 23px;
+    padding: 16px 16px;
+    border-radius: 25px;
+    border-color: white;
+    border-width: 6px;
+}
+
+input:focus-within{
+    outline: none;
+    border-color: rgb(149, 74, 254);
+    border-width: 6px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
